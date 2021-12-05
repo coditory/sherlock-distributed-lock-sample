@@ -1,0 +1,19 @@
+buildscript {
+    ext {
+        versions = [
+            sherlock: '0.4.12'
+        ]
+    }
+}
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+
+    apply plugin: 'java'
+
+    dependencies {
+        implementation 'ch.qos.logback:logback-classic:1.2.7'
+    }
+}

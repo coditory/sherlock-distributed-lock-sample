@@ -1,0 +1,4 @@
+dependencies {
+    implementation "com.coditory.sherlock:sherlock-mongo-reactive:$versions.sherlock"
+    implementation "com.coditory.sherlock:sherlock-api-reactor:$versions.sherlock"
+}

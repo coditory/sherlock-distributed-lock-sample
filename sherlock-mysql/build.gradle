@@ -1,0 +1,3 @@
+dependencies {
+    implementation "com.coditory.sherlock:sherlock-sql:$versions.sherlock"
+}
